@@ -40,7 +40,7 @@ public class CategoryController
         return await _service.GetAllCategoriesAsync();
     }
 
-    [HttpPost("PutCategoryAsync")]
+    [HttpPost("UpdateCategoryAsync")]
     [Consumes(MediaTypeNames.Application.Json)]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]

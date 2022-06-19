@@ -9,7 +9,7 @@ using ecommerce_api.Contexts;
 
 namespace ecommerce_api.Migrations
 {
-    [DbContext(typeof(CategoryContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     partial class CategoryContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

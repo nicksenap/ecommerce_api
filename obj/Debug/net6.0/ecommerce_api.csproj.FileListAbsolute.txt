@@ -54,3 +54,5 @@
 /Users/nick.song/dev/ecommerce_dotnet/ecommerce_api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/nick.song/dev/ecommerce_dotnet/ecommerce_api/bin/Debug/net6.0/Mono.TextTemplating.dll
 /Users/nick.song/dev/ecommerce_dotnet/ecommerce_api/bin/Debug/net6.0/System.CodeDom.dll
+/Users/nick.song/dev/ecommerce_dotnet/ecommerce_api/bin/Debug/net6.0/AutoMapper.dll
+/Users/nick.song/dev/ecommerce_dotnet/ecommerce_api/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -10,7 +10,7 @@ using ecommerce_api.Contexts;
 
 namespace ecommerce_api.Migrations
 {
-    [DbContext(typeof(CategoryContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20220618204159_add-product")]
     partial class addproduct
     {

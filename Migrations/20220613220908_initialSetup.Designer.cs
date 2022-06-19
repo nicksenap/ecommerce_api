@@ -10,7 +10,7 @@ using ecommerce_api.Contexts;
 
 namespace ecommerce_api.Migrations
 {
-    [DbContext(typeof(CategoryContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20220613220908_initialSetup")]
     partial class initialSetup
     {

@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BVnZJMBwhvdUo7oZ+bbhvRCGaK4EHs1I247O0ULB5u06cGiuSqsgZGY0zfldfw/l/gYimZIj0kSOjtEXTNpXYw==",
+  "dgSpecHash": "EwSI1OdrIMZ2MbPpks5Ge5onzHt/UqIlOG9KZ3fNSy+6TPTY1pUAbL/zgBomRz3JK50fl1DsU4vtYA5/GiGAIg==",
   "success": true,
   "projectFilePath": "/Users/nick.song/dev/ecommerce_dotnet/ecommerce_api/ecommerce_api.csproj",
   "expectedPackageFiles": [
+    "/Users/nick.song/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
+    "/Users/nick.song/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/Users/nick.song/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/nick.song/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/nick.song/.nuget/packages/microsoft.entityframeworkcore/7.0.0-preview.4.22229.2/microsoft.entityframeworkcore.7.0.0-preview.4.22229.2.nupkg.sha512",
     "/Users/nick.song/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.0-preview.4.22229.2/microsoft.entityframeworkcore.abstractions.7.0.0-preview.4.22229.2.nupkg.sha512",
     "/Users/nick.song/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.0-preview.4.22229.2/microsoft.entityframeworkcore.analyzers.7.0.0-preview.4.22229.2.nupkg.sha512",

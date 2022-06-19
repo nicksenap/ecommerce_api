@@ -6,15 +6,17 @@ namespace ecommerce_api.Repositories;
 
 public class CategoryRepository
 {
-    private readonly CategoryContext _context;
-    public CategoryRepository(CategoryContext context)
+    private readonly ApplicationDbContext _context;
+
+    public CategoryRepository(ApplicationDbContext context)
     {
         _context = context;
     }
 
     public async Task<Category> GetCategoryByIdAsync(string id)
     {
-        return await _context.Categories.FirstOrDefaultAsync(category => category.Id == id) ?? throw new InvalidOperationException();
+        return await _context.Categories.FirstOrDefaultAsync(category => category.Id == id) ??
+               throw new InvalidOperationException();
     }
 
     public async Task<Category> PutCategoryAsync(string description, string imageUrl, string categoryName)
@@ -22,13 +24,14 @@ public class CategoryRepository
         var category = new Category(description, imageUrl, categoryName);
         var result = await _context.Categories.AddAsync(category);
         await _context.SaveChangesAsync();
-        
+
         return result.Entity;
     }
 
     public async Task<Category> GetCategoryByNameAsync(string name)
     {
-        return await _context.Categories.FirstOrDefaultAsync(category => category.CategoryName == name) ?? throw new InvalidOperationException();
+        return await _context.Categories.FirstOrDefaultAsync(category => category.CategoryName == name) ??
+               throw new InvalidOperationException();
     }
 
     public async Task<ICollection<Category>> GetAllCategories()
